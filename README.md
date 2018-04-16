@@ -24,7 +24,7 @@ chmod +x /sbin/cloudflaredns.sh
 ```
 cat >> /etc.defaults/ddns_provider.conf << 'EOF'
 [Cloudflare]
-        modulepath=/sbin/cloudflaredns.sh
+        modulepath=/sbin/cloudflareddns.sh
         queryurl=https://www.cloudflare.com/
 E*.
 ```
